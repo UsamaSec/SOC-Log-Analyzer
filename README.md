@@ -1,6 +1,6 @@
 # SOC Log Analyzer
 
-A Python script that parses Windows Security Event Log data (Event ID 4625 — failed logon) and flags source IPs showing brute-force patterns, replicating core SIEM detection logic outside of a SIEM platform.
+A Python script that parses Windows Security Event Log data (Event ID 4625 - failed logon) and flags source IPs showing brute-force patterns, replicating core SIEM detection logic outside of a SIEM platform.
 
 ## Why This Project
 
