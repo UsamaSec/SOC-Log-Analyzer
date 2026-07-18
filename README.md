@@ -23,7 +23,8 @@ By default, it reads `sample-data/failed_logins.csv`. To use your own data, expo
 
 ## Sample Output
 
-<img width="751" height="410" alt="image" src="https://github.com/user-attachments/assets/81514088-74b9-4891-abef-cfd23c8f7b9e" />
+<img width="740" height="436" alt="image" src="https://github.com/user-attachments/assets/34c963cd-8325-4a12-8a67-eb213ee25cf3" />
+
 
 
 ## Data Source
