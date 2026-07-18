@@ -23,13 +23,22 @@ By default, it reads `sample-data/failed_logins.csv`. To use your own data, expo
 
 ## Sample Output
 
-![Script output flagging a suspicious IP](screenshots/script-output.png)
+<img width="751" height="410" alt="image" src="https://github.com/user-attachments/assets/81514088-74b9-4891-abef-cfd23c8f7b9e" />
+
 
 ## Data Source
 Sample data in `/sample-data` was generated from the brute-force attack simulated in my [Home-SOC-Lab](https://github.com/usamabhatti3492/Home-SOC-Lab) project.
 
 ## What I Learned
-[Fill in once built — e.g., working with Python's csv module, structuring detection logic, handling real-world messy field names from Splunk exports]
+Learned that real-world log data rarely matches assumptions, Splunk's actual 
+CSV export used different field names than expected (Source_Network_Address, 
+not a generic "src_ip"), requiring me to inspect the raw data before the script 
+would run correctly. Also reinforced how a simple counting/grouping approach 
+in plain Python can replicate core SIEM detection logic, and how noisy 
+real data (background/legitimate traffic mixed with attack traffic) needs 
+to be correctly filtered rather than assumed clean.
 
 ## Next Steps
-[Optional — e.g., add command-line arguments for custom thresholds, export results to CSV instead of just printing]
+Add command-line arguments to make the threshold and input file configurable, 
+and add an option to export flagged results to a CSV report instead of just 
+printing to terminal.
