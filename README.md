@@ -4,7 +4,7 @@ A Python script that parses Windows Security Event Log data (Event ID 4625 — f
 
 ## Why This Project
 
-Built as a follow-up to my [Home-SOC-Lab](https://github.com/usamabhatti3492/Home-SOC-Lab) project, where I detected a brute-force attack using Splunk's search interface. This script reimplements that same detection logic in Python — grouping failed login events by source IP and flagging suspicious activity — to demonstrate the underlying mechanics a SIEM automates, and basic security scripting/automation skills.
+Built as a follow-up to my [Home-SOC-Lab](https://github.com/usamabhatti3492/Home-SOC-Lab) project, where I detected a brute-force attack using Splunk's search interface. This script reimplements that same detection logic in Python, grouping failed login events by source IP and flagging suspicious activity — to demonstrate the underlying mechanics a SIEM automates, and basic security scripting/automation skills.
 
 ## Tools Used
 Python 3 · csv (standard library) · Kali Linux
