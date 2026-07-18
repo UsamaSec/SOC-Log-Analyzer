@@ -14,6 +14,7 @@ Python 3 · csv (standard library) · Kali Linux
 2. Groups failed login attempts (Event ID 4625) by source IP
 3. Flags any IP with 5+ failed attempts as suspicious
 4. Outputs a report showing attempt count, first seen, and last seen per IP
+5. Prints a summary: total events processed, unique IPs, and suspicious IP count
 
 ## How to Run
 ```bash
