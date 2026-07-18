@@ -16,7 +16,7 @@ with open("sample-data/failed_logins.csv", newline="", encoding="utf-8") as file
     reader = csv.DictReader(file)
 
     for row in reader:
-        ip = row["src_ip"]
+        ip = row["Source_Network_Address"]
         time = row["_time"]
 
         # if we haven't seen this IP before, add it to our dictionary
