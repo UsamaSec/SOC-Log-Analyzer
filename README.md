@@ -27,7 +27,7 @@ By default, it reads `sample-data/failed_logins.csv`. To use your own data, expo
 
 
 ## Data Source
-Sample data in `/sample-data` was generated from the brute-force attack simulated in my [Home-SOC-Lab](https://github.com/usamabhatti3492/Home-SOC-Lab) project.
+Sample data in `/sample-data` was generated from the brute-force attack simulated in my [Home-SOC-Lab](https://github.com/UsamaSec/Home-SOC-Lab) project.
 
 ## What I Learned
 Learned that real-world log data rarely matches assumptions, Splunk's actual 
